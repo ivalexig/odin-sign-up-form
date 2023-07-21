@@ -105,7 +105,7 @@ input {
   padding: 5px 10px;
   font-size: 1rem;
   border-radius: 5px;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #e5e7eb;
 }
 
 input::placeholder {
