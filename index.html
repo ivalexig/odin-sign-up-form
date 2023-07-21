@@ -86,12 +86,19 @@
               <div>
                 <div>
                   <label for="password">Password</label>
-                  <input id="password" type="password" name="password" />
+                  <input
+                    id="password"
+                    class="error"
+                    type="password"
+                    name="password"
+                  />
+                  <p class="error-msg">* Passwords do not match</p>
                 </div>
                 <div>
                   <label for="password-confirm">Confirm Password</label>
                   <input
                     id="password-confirm"
+                    class="error"
                     type="password"
                     name="password-confirm"
                   />
